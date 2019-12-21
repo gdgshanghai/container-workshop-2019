@@ -37,7 +37,7 @@
 
 - 镜像的发布
 
-[推文](http://mp.weixin.qq.com/s?__biz=MjM5NDkwOTEyMQ==&mid=2651644330&idx=1&sn=1db9e08fa950e2ec0b87ce86422129dc&chksm=bd78df048a0f5612254d0acc5a4188a4fdbf66cf692d0ceb7d657de3974e7edce032b12599e1&scene=21#wechat_redirect) [课件](https://devs.wiki/slides/gdg-shanghai/k8s/ch01/)  [归档](./docker-basic/)
+[推文](http://mp.weixin.qq.com/s?__biz=MjM5NDkwOTEyMQ==&mid=2651644330&idx=1&sn=1db9e08fa950e2ec0b87ce86422129dc&chksm=bd78df048a0f5612254d0acc5a4188a4fdbf66cf692d0ceb7d657de3974e7edce032b12599e1&scene=21#wechat_redirect) [课件](https://devs.wiki/slides/gdg-shanghai/k8s/ch01/)  [归档](./chap01-docker-basic/docker-basic.md)
 
 ---
 
@@ -55,7 +55,7 @@
 
 - python 与 docker 的结合
 
-[推文](http://mp.weixin.qq.com/s?__biz=MjM5NDkwOTEyMQ==&mid=2651644526&idx=1&sn=94835a30e1c94f775868f7b580edf1b3&chksm=bd78dcc08a0f55d6b365fc66e2e44902f8fed3801144afc78f9ca35e4e3886cba0e861c0f532&scene=21#wechat_redirect) [课件](https://devs.wiki/slides/gdg-shanghai/k8s/ch02/) [归档]()
+[推文](http://mp.weixin.qq.com/s?__biz=MjM5NDkwOTEyMQ==&mid=2651644526&idx=1&sn=94835a30e1c94f775868f7b580edf1b3&chksm=bd78dcc08a0f55d6b365fc66e2e44902f8fed3801144afc78f9ca35e4e3886cba0e861c0f532&scene=21#wechat_redirect) [课件](https://devs.wiki/slides/gdg-shanghai/k8s/ch02/) [归档](./chap02-docker-advanced/docker-advanced.md)
 
 ---
 
