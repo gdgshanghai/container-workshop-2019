@@ -55,7 +55,7 @@
 
 - python 与 docker 的结合
 
-[推文](http://mp.weixin.qq.com/s?__biz=MjM5NDkwOTEyMQ==&mid=2651644526&idx=1&sn=94835a30e1c94f775868f7b580edf1b3&chksm=bd78dcc08a0f55d6b365fc66e2e44902f8fed3801144afc78f9ca35e4e3886cba0e861c0f532&scene=21#wechat_redirect) [课件](https://devs.wiki/slides/gdg-shanghai/k8s/ch02/) [归档 part-1](./chap02-docker-advanced/docker-advanced-part1.md) [归档 part-2](./chap02-docker-advanced/docker-advanced-part2.md)
+[推文](http://mp.weixin.qq.com/s?__biz=MjM5NDkwOTEyMQ==&mid=2651644526&idx=1&sn=94835a30e1c94f775868f7b580edf1b3&chksm=bd78dcc08a0f55d6b365fc66e2e44902f8fed3801144afc78f9ca35e4e3886cba0e861c0f532&scene=21#wechat_redirect) [课件](https://devs.wiki/slides/gdg-shanghai/k8s/ch02/) [归档 part-1](./chap02-docker-advanced/docker-advanced-part1.md) [part-2](./chap02-docker-advanced/docker-advanced-part2.md)
 
 ---
 
@@ -106,6 +106,9 @@
 </a>
 <a href="https://github.com/azzinoths0905"> 
     <img src="https://avatars3.githubusercontent.com/u/30699803?s=400&v=4" width="45px">
+</a>
+<a href="https://github.com/hayley1643">
+    <img src="https://avatars2.githubusercontent.com/u/46780207?s=400&v=4" width="45px">
 </a>
 
 由于时间精力有限，内容难免有疏漏之处。欢迎大家通过提交 issue 或 pr 的方式对内容进行勘误，将会在贡献者里显示你的链接
