@@ -15,7 +15,7 @@
 
 node 的概念和 swarm 密切相关，swarm 是指一组包含一个 或多个 运行 docker engine 的主机（物理机或者虚拟机）组成的群组，节点（node）就自然是指在群组中的单体了。
 
-![Swarm mode cluster](./imgs/swarm-diagram.png)
+![Swarm mode cluster](https://blog-1252790741.cos.ap-shanghai.myqcloud.com/imgs/h1bt3.png)
 
 运行`Docker`的主机可以主动初始化一个`Swarm`集群或者加入一个已存在的`Swarm`集群，这样这个运行`Docker`的主机就成为一个`Swarm`集群的节点 (`node`) 。
 
@@ -70,7 +70,7 @@ yrz7drszt4hq5j8c8rbhoexqc     dameng-01           Ready               Active    
 
 Service 的创建过程：
 
-![docker-create-service](./imgs/service-lifecycle.png)
+![docker-create-service](https://blog-1252790741.cos.ap-shanghai.myqcloud.com/imgs/3zb34.png)
 
 ```shell
 $ docker service --help
@@ -191,7 +191,7 @@ $ docker-machine ssh manager
 
 我们可以看到：
 
-![docker-ssh-manager](./imgs/docker-ssh-manager.png)
+![docker-ssh-manager](https://blog-1252790741.cos.ap-shanghai.myqcloud.com/imgs/bgrn9.png)
 
 然后，我们用`docker swarm init`从这个节点初始化一个`Swarm`集群，如果这个Docker主机有多个IP（多个网卡），就要用`--advertise-addr`指定一个:
 
@@ -201,7 +201,7 @@ $ docker swarm init --advertise-addr 192.168.99.107
 
 我们可以看到：
 
-![docker-swarm-init](./imgs/docker-swarm-init.png)
+![docker-swarm-init](https://blog-1252790741.cos.ap-shanghai.myqcloud.com/imgs/hi8v1.png)
 
 现在我们的`Manager`节点就是刚刚创建的集群的管理节点了，
 
@@ -225,7 +225,7 @@ $ vi docker-stack.yaml
 $ docker build -t friendlyhello .
 ```
 
-![ls-try-4](./imgs/ls-try-4.png)
+![ls-try-4](https://blog-1252790741.cos.ap-shanghai.myqcloud.com/imgs/o5ytb.png)
 
 #### app.py
 
@@ -315,7 +315,7 @@ $ docker swarm join --token SWMTKN-1-3wd0vdozskitmpw5vofkjc9ie6251wuno21dmbugqk5
 
 我们可以看到：
 
-![docker-swarm-join](./imgs/docker-swarm-join.png)
+![docker-swarm-join](https://blog-1252790741.cos.ap-shanghai.myqcloud.com/imgs/akbwz.png)
 
 ### STEP 4: 使用Stack部署服务
 
@@ -333,7 +333,7 @@ $ docker-machine ssh manager
 $ docker stack deploy -c ~/try-it-out/docker-stack.yaml friendlyhello
 ```
 
-![docker-stack-depoly](./imgs/docker-stack-depoly.png)
+![docker-stack-depoly](https://blog-1252790741.cos.ap-shanghai.myqcloud.com/imgs/riw90.png)
 
 部署完毕。
 
@@ -341,7 +341,7 @@ $ docker stack deploy -c ~/try-it-out/docker-stack.yaml friendlyhello
 
 现在就可以通过集群中的任意一个节点的IP访问到这个`flask`项目了：
 
-![local-acces](./imgs/local-acces.png)
+![local-acces](https://blog-1252790741.cos.ap-shanghai.myqcloud.com/imgs/t3yc1.png)
 
 ## TRY IT OUT: 使用 Docker stack 部署
 
@@ -394,4 +394,4 @@ $ docker stack deploy -c docker-stack.yaml postgresql
 
 接着就可以从`8998端口`访问GUI了：
 
-![db-web-access](./imgs/db-web-access.png)
+![db-web-access](https://blog-1252790741.cos.ap-shanghai.myqcloud.com/imgs/a42ud.png)

@@ -55,7 +55,7 @@
 
 - python 与 docker 的结合
 
-[推文](http://mp.weixin.qq.com/s?__biz=MjM5NDkwOTEyMQ==&mid=2651644526&idx=1&sn=94835a30e1c94f775868f7b580edf1b3&chksm=bd78dcc08a0f55d6b365fc66e2e44902f8fed3801144afc78f9ca35e4e3886cba0e861c0f532&scene=21#wechat_redirect) [课件](https://devs.wiki/slides/gdg-shanghai/k8s/ch02/) [归档](./chap02-docker-advanced/docker-advanced.md-part1.md)
+[推文](http://mp.weixin.qq.com/s?__biz=MjM5NDkwOTEyMQ==&mid=2651644526&idx=1&sn=94835a30e1c94f775868f7b580edf1b3&chksm=bd78dcc08a0f55d6b365fc66e2e44902f8fed3801144afc78f9ca35e4e3886cba0e861c0f532&scene=21#wechat_redirect) [课件](https://devs.wiki/slides/gdg-shanghai/k8s/ch02/) [归档 part-1](./chap02-docker-advanced/docker-advanced-part1.md) [归档 part-2](./chap02-docker-advanced/docker-advanced-part2.md)
 
 ---
 
@@ -83,7 +83,7 @@
 - k8s 常用资源概念入门
 - 在k8s上动手部署自己的应用
 
-[推文](https://mp.weixin.qq.com/s/pwWXmftJN7Z2M7F_hUU3IQ) [课件](https://devs.wiki/slides/gdg-shanghai/k8s/ch04/) [归档](k8s-deploy.md)
+[推文](https://mp.weixin.qq.com/s/pwWXmftJN7Z2M7F_hUU3IQ) [课件](https://devs.wiki/slides/gdg-shanghai/k8s/ch04/) [归档](./chap04-k8s-install-and-deploy/k8s-deploy.md)
 
 ---
 
@@ -95,7 +95,7 @@
 - k8s api扩展之metacontroller
 - TODO
 
-[课件](https://devs.wiki/slides/gdg-shanghai/k8s/ch05/) [归档](onepice-of-k8s.md)
+[课件](https://devs.wiki/slides/gdg-shanghai/k8s/ch05/) [归档](./chap05-k8s-more/onepice-of-k8s.md)
 
 ## Contributor
 
