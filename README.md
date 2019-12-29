@@ -89,11 +89,9 @@
 
 **2019.12.15**
 
-**K8s 扩展与部署**
+**One Piece of k8s**
 
-- k8s 部署s3兼容的文件服务
-- k8s api扩展之metacontroller
-- TODO
+- 容器系列所有实战集合(合计 18 个 task)
 
 [课件](https://devs.wiki/slides/gdg-shanghai/k8s/ch05/) [归档](./chap05-k8s-more/onepice-of-k8s.md)
 
